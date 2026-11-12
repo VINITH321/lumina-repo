@@ -1,0 +1,30 @@
+# Dependencies
+node_modules/
+*/node_modules/
+
+# Next.js build & cache
+frontend/.next/
+frontend/out/
+.next/
+
+# Backend build
+backend/dist/
+dist/
+
+# Environment variables & secrets (NEVER push credentials to GitHub!)
+.env
+.env.local
+.env.*.local
+backend/.env
+frontend/.env.local
+!*.env.example
+
+# Debug logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# OS generated files
+.DS_Store
+Thumbs.db
